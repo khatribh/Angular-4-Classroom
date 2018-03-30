@@ -4,10 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+import { ChildAppComponent } from './child-app/child-app.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
+    ChildAppComponent
   ],
   imports: [
     BrowserModule
